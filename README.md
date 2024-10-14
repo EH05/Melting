@@ -146,6 +146,15 @@
 
 <br/>
 
+<details>
+<summary>시스템 플로우 차트(멜팅, AI Cover)</summary>
+<div markdown="1">
+<img width="500px" src="./resources/img/아키텍쳐(멜팅, AI Cover).png">
+</div>
+</details>
+
+<br/>
+
 ### ERD
 
 <img width="500px" src="./resources/img/ERD.png">
