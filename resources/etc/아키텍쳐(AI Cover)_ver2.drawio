@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="페이지-1" id="eRBPq1MG5XddfRhol00t">
+    <mxGraphModel dx="4667" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="1210" width="834" height="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-2" value="Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="218" y="60" width="102" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-3" value="" style="group" vertex="1" connectable="0" parent="N3tI-XeOSDUBGtUOwl_M-2">
+          <mxGeometry x="45" y="180" width="10.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-3">
+          <mxGeometry width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-5" value="member_id&lt;div&gt;member_gender&lt;br&gt;member_voice_url&lt;br&gt;originalSong_voice_url&lt;br&gt;originalSong_mr_url&lt;/div&gt;&lt;div&gt;originalSong_voice_gender&lt;br&gt;song_id&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="N3tI-XeOSDUBGtUOwl_M-2">
+          <mxGeometry x="0.5025" y="13" relative="1" as="geometry">
+            <mxPoint x="55" y="300" as="sourcePoint" />
+            <mxPoint x="358.5" y="300" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-6" value="S3" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="359" y="60" width="100" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-7" value="" style="group" vertex="1" connectable="0" parent="N3tI-XeOSDUBGtUOwl_M-6">
+          <mxGeometry x="44.75" y="402.5" width="10.5" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-7">
+          <mxGeometry width="10" height="87.50000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-10" value="AI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="537" y="60" width="100" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-10">
+          <mxGeometry x="43" y="300" width="10" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-13" value="[publish] &lt;br&gt;song_id&lt;br&gt;song_url" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="N3tI-XeOSDUBGtUOwl_M-10">
+          <mxGeometry y="11" relative="1" as="geometry">
+            <mxPoint x="54" y="786" as="sourcePoint" />
+            <mxPoint x="235.5" y="786" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-42" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;오디오 병합&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="N3tI-XeOSDUBGtUOwl_M-10">
+          <mxGeometry x="0.2389" y="40" relative="1" as="geometry">
+            <mxPoint x="53" y="660" as="sourcePoint" />
+            <mxPoint x="58" y="698" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="93" y="660" />
+              <mxPoint x="93" y="698" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-14" value="AI Cover" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-15" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="75" y="60" width="100" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-16" value="" style="group" vertex="1" connectable="0" parent="N3tI-XeOSDUBGtUOwl_M-15">
+          <mxGeometry x="45" y="150" width="10.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-16">
+          <mxGeometry width="10" height="210.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-18" value="Redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="714" y="60" width="120" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-21" value="&lt;span style=&quot;background-color: initial;&quot;&gt;member_id&lt;/span&gt;&lt;div&gt;original_song_id&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="131" y="240" as="sourcePoint" />
+            <mxPoint x="261" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-22" value="&lt;span style=&quot;background-color: initial;&quot;&gt;originalSong_voice_url&lt;/span&gt;&lt;div&gt;originalSong_mr_url&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="-0.0044" y="-10" relative="1" as="geometry">
+            <mxPoint x="585" y="460" as="sourcePoint" />
+            <mxPoint x="414.25" y="460" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-23" value="&lt;span style=&quot;background-color: initial;&quot;&gt;originalSong_voice_file&lt;/span&gt;&lt;div&gt;originalSong_mr_file&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="N3tI-XeOSDUBGtUOwl_M-1" target="N3tI-XeOSDUBGtUOwl_M-10">
+          <mxGeometry x="-0.0058" y="10" relative="1" as="geometry">
+            <mxPoint x="414.5" y="550" as="sourcePoint" />
+            <mxPoint x="560" y="550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-24" value="song_file" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="-0.0044" y="-10" relative="1" as="geometry">
+            <mxPoint x="580" y="804" as="sourcePoint" />
+            <mxPoint x="409.25" y="804" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-27" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;추론&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="0.2389" y="27" relative="1" as="geometry">
+            <mxPoint x="593" y="600" as="sourcePoint" />
+            <mxPoint x="598" y="638" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="633" y="600" />
+              <mxPoint x="633" y="638" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-28" value="aiCover_voice_file" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="637" y="640" width="68" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-29" value="member_model_file&lt;div&gt;originalSong_voice_file&lt;/div&gt;&lt;div&gt;originalSong_voice_gender&lt;/div&gt;&lt;div&gt;member_gender&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="646" y="560" width="68" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-35" value="true" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="0.4191" y="-10" relative="1" as="geometry">
+            <mxPoint x="176" y="390" as="sourcePoint" />
+            <mxPoint x="130.5" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="266" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-36" value="" style="group" vertex="1" connectable="0" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="262.5" y="852" width="11" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-36">
+          <mxGeometry x="1" width="10" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-39" value="DB song_id의 song_url 업데이트" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="273.5" y="883" width="188" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-9" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;[subscribe]&lt;br&gt;song_id&lt;br&gt;song_url" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="0.6759" y="-10" relative="1" as="geometry">
+            <mxPoint x="777" y="874" as="sourcePoint" />
+            <mxPoint x="271" y="874" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-43" value="aiCover_voice_file&lt;br&gt;originalSong_mr_file" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="646" y="698.5" width="68" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="N3tI-XeOSDUBGtUOwl_M-75" value="song_file" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N3tI-XeOSDUBGtUOwl_M-1">
+          <mxGeometry x="630" y="753" width="68" height="19" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
